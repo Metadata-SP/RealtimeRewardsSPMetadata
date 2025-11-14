@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://ribboncommunications.werecognize.com/saml/spMetadata">
 <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
 <md:KeyDescriptor use="signing">
@@ -19,4 +20,5 @@
 <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
 <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ribboncommunications.werecognize.com/saml/acs" index="0"/>
 </md:SPSSODescriptor>
+
 </md:EntityDescriptor>
